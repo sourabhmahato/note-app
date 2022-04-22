@@ -1,0 +1,42 @@
+.main{
+    min-height: 88vh;
+    display: flex;
+    align-items: center;
+    background-image: url("../../ck.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.lp-row{
+    justify-content: center;
+    text-align: center;
+    background: black;
+    padding: 53px 0px;
+    width: 712px;
+    margin: auto;
+    border-radius: 50px;
+    box-shadow: 10px 0 0 10px cadetblue;
+}
+.intro-text{
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+.buttonContainer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.intro-text p{
+    font-size: 20px;
+}
+@media (max-width: 990px){
+    .lp-row{
+        width: 100%;
+    }
+    .intro-text p{
+        font-size: 15px;
+    }
+    .intro-text h1{
+        font-size: 30px;
+    }
+}

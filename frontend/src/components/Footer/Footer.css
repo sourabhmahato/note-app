@@ -1,0 +1,7 @@
+.credits{
+    font-size: 16px;
+}
+.credits a{
+    color: blue;
+    text-decoration: underline;
+}
