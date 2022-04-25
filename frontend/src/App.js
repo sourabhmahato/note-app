@@ -7,12 +7,12 @@ import MyNotes from "./MyNotes/MyNotes";
 function App() {
 	return (
 		<BrowserRouter>
-    <Header />
+			<Header />
 			<main>
-        <Routes>
-				<Route exact path="/" element={<LandingPage/>}  />
-				<Route path="/mynotes" element={<MyNotes/>} />
-        </Routes>
+				<Routes>
+					<Route exact path="/" element={<LandingPage />} />
+					<Route path="/mynotes" element={<MyNotes />} />
+				</Routes>
 				{/* <LandingPage /> */}
 			</main>
 			<Footer />
